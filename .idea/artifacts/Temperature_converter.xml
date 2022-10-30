@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Temperature_converter">
+    <output-path>E:/University/2 курс/ООП/Temperature_converter</output-path>
+    <root id="archive" name="Temperature_converter.jar">
+      <element id="module-output" name="demo_project" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:17.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:17.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:17.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:17.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:17.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:17.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:17.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:17.0.1" />
+    </root>
+  </artifact>
+</component>
