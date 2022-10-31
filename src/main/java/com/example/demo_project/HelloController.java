@@ -50,7 +50,7 @@ public class HelloController {
 
     public void calculate(ActionEvent e){
         temp_value_converted = 0;
-        String formula_text = "Виберіть шкалу...";
+        String formula_text = "Choose the right system...";
         double temp_given;
         try {
             temp_given = Double.parseDouble(value_enter.getText());
@@ -131,8 +131,8 @@ public class HelloController {
             answer_label.setText(String.valueOf(String.format("%.2f", temp_value_converted)));
 
         } catch (Exception a){
-            formula_label.setText("Введіть правильне значення...");
-            answer_label.setText("Введіть правильне значення...");
+            formula_label.setText("Incorrect value...");
+            answer_label.setText("Incorrect value...");
 
         }
 
@@ -254,15 +254,15 @@ public class HelloController {
 
         about_window.initModality(Modality.WINDOW_MODAL);
         about_window.initOwner(((Node) e.getTarget()).getScene().getWindow());
-        about_window.setTitle("Інформація про студента");
+        about_window.setTitle("Useless info tab");
         about_window.setScene(scene);
         about_window.show();
     }
 
     public HelloController(){
-        info_map.put("Celsius", "Шкала Цельсія\nРік створення: 1742\nАвтор: Андерс Цельсій");
-        info_map.put("Kalvin", "Шкала Кальвіна\nРік створення: 1848\nАвтор: Вільям Томсон");
-        info_map.put("Fahrenheit", "Шкала Фаренгейта\nРік створення: 1724\nАвтор: Данієль Фаренгейт");
+        info_map.put("Celsius", "Celsius scale\nCreated in: 1742\nAuthor: Anders Celsius");
+        info_map.put("Kalvin", "Kalvin scale\nCreated in: 1848\nAuthor: William Thomson");
+        info_map.put("Fahrenheit", "Fahrenheit scale\nCreated in: 1724\nAuthor: Daniel Fahrenheit");
 
     }
 

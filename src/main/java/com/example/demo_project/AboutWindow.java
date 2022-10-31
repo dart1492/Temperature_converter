@@ -22,7 +22,7 @@ public class AboutWindow implements Initializable {
     @FXML
     private Spinner<Integer> grade_spinner;
 
-    private final String[] groups = {"АнД-21", "КН-21", "КН-22"};
+    private final String[] groups = {"Cool", "Cooler", "The coolest"};
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
