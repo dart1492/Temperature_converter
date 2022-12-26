@@ -8,4 +8,5 @@ And another one:
 
 ![image](https://user-images.githubusercontent.com/106056121/209562197-e94f453e-8f41-4c8d-ab8b-daecc56ef95e.png) 
 </br>
-### Created with the help of Java and JavaFX. Nothing pretentious, just a quick look at possibilities of the library overall and SceneBuilder in particular
+
+Created with the help of Java and JavaFX. Nothing pretentious or special here, just a quick look at possibilities of the library overall and SceneBuilder in particular
