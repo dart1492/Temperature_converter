@@ -1,4 +1,4 @@
-# Temperature_converter
+# Forked Temperature_converter
 #### This is a temperature converter application, which can calculate temperatures in Celcius, Kalvin and Farengheight back and forth. 
 Here are some screenshots of the programm working: 
 
